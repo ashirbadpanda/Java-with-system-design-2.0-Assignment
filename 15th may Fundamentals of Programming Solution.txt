@@ -1,0 +1,82 @@
+15 TH MAY FUNDAMENTALS OF PROGRAMMING
+
+1.Computer Basics Assignment Answers:
+
+	Q1. Computer is an electronic programmable device, which is used for various purposes in our day today life.
+
+	Q2. RAM(Random Memory Access) is a temporary storage device, which stores the data in a temporary way as long as the current will flow towards it.
+
+	Q3. Basically in a computer the data will be stored in HDD, but nowadays we will use SSD for the replacement of HDD, because the hdd takes more time to be loaded due to its electromagnetic property.
+
+	Q4. Generally, in a computer system we use various inputs like in the field of typing, and the way of use the external keyboard is use, which takes input from the user.
+
+	Q5. The output devices are like headphone jack, speaker, hdmi connector etc.
+
+	Q6. Mouse is a device that is used to move the cursor or pointer to the screen.
+
+	Q7. Machine level language is used to understand by the computer without translation.
+
+	Q8. The input devices are keyboard, mouse, printer, touchpad,  speaker etc.
+
+
+2.Fundamentals of Java Assignment Answers:
+
+	Q1. The language, which is used to communicate users to the system, generally the developers write the code in a way that the system will understand and provide a correct output is known as programming language.
+	
+	Q2. We need a programming language to develop the new and the updated version of app and web application.
+
+	Q3. The features of java are object-oriented, robust , platform independent, multithreading, inheritance, polymorphism, etc.
+	
+	Q4. Object is the real world entity of the code. Generally the objects are created by the help of class.
+		
+	Q5. Class is the Blue-print of an object. The class basically holds the properties of objects of that class.
+
+	Q6. The main() method of java is playing an important role in executing the java program, the execution starts from the main() method. 
+
+
+3.Java Variables and Data Types Assignment Answers:
+
+	Q1. In statically type programming language the errors are generated during the compile time and in Dynamic type programming language the errors are generated during the run 
+		time.
+
+	Q2. Variable is a container, which is used to store the data of the data type.
+
+	Q3. We assign a value to a variable by the help of the assignment operator.
+		Int a = 123;
+		System.out.println(a);
+	
+	Q4. The Primitive Data Types of java are boolean, byte, short, int, long, float, double, char.
+
+	Q5. Identifiers can be used to name, variable, methods, classes, packages, and constants.
+
+	Q6. The operators in java are specified in four types that are a. Unary operator
+									 b. Binary operator
+									 c. Ternary operator
+									 d. Logical operator
+
+	Q7. The increment operator means the value of a variable will be increased if it is in a pre or post position.
+				Increment operator has two types i.e
+
+			1.Pre increment	
+				Ex. int a = 10;
+					++a; //pre increment
+					System.out.println(a); // o/p- 11	
+			2.post increment
+				Ex. int a = 10;
+					a++; //post increment
+					System.out.println(a); // o/p- 10
+
+		The Decrement operator means the value will be decreased if it is in a pre or post position.
+			Decrement operator has two types i.e
+
+			1.Pre decrement	
+				Ex. int a = 10;
+					--a; //pre decrement
+					System.out.println(a); // o/p- 9
+			2.post decrement
+				Ex. int a = 10;
+					a--; //post decrement
+					System.out.println(a); // o/p- 10
+					
+					
+																		   "THANK YOU"
