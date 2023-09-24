@@ -1,0 +1,130 @@
+			   						------Operators and Loops-----
+									 Assignment Questions Answers
+
+Q1.  There are three conditional operator in java like i. If conditional statement
+						      ii. If-else conditional statement
+						     iii. Switch case conditional statement
+	->The if conditional provides the exection of single statement at a time, In  case of the if-else condition the exection also happen only once because the if condition is satisfied 	in first then the compiler never go to the else statement and viceversa, but in case of switch case the exection depends on the terminology provided by the user or taking an input 	from the user then only input based task will be run.
+
+Q2.  According the types of operators based on the number of operands are of three types i.Unary Operator
+										        ii.Binary Operator
+										       iii.Ternary Operator
+	->In the case of Unary operator the only one operands plays the role of increment and decrement.
+	->In the case of Binary operator there are two operands are used to plays the role of addition, substraction, division, multiplication etc.
+	->In the case of Ternary operator there are way of writing the statement of if-else, is act in onle line that is possible by the help of ternary operator.
+
+Q3. The switch statement in Java is used to control the flow of a program based on the value of an expression. It provides an efficient way to execute different blocks of code depending on 	the value of the expression, making code more readable and concise in situations where multiple conditional branches are needed. 
+
+Q4. In java according to the priority level the operator are like perform the operation of operator like division, multiplication, addition, substraction this is the descending order of 	priority level of operator in java.
+
+Q5. Conditional statements in Java allow you to control the flow of your program by executing different blocks of code based on specified conditions. Java provides several conditional 	statements for this purpose: 1.If conditional
+			     2.If-else conditional
+			     3.Else-if conditionall
+			     4.Switch case 
+	*uses of if Statement:
+
+	Syntax:
+	if (condition) {
+	    // Code to execute if the condition is true
+	}
+	Use: To execute a block of code if a specified condition is true. If the condition is false, the code block is skipped.
+
+	*uses of if-else Statement:
+
+	Syntax:
+	if (condition) {
+	    // Code to execute if the condition is true
+	} else {
+	    // Code to execute if the condition is false
+	}
+	Use: To execute one block of code if a condition is true and another block if it's false.
+
+	*uses of else if-else Statement:
+
+	Syntax:
+	if (condition1) {
+   	    // Code to execute if condition1 is true
+	} else if (condition2) {
+	    // Code to execute if condition2 is true
+	} else {
+    	    // Code to execute if all conditions are false
+	}
+
+	*uses of switch Statement:
+
+	Syntax:
+	switch (expression) {
+    	case value1:
+       		 // Code to execute if expression equals value1
+        break;
+  	  case value2:
+   	     // Code to execute if expression equals value2
+        break;
+    	default:
+        	// Code to execute if expression doesn't match any case
+	}
+		Use: To select one of many code blocks to execute based on the value of an expression. It's often used with enumerated types or constant values.
+
+Q6. The syntax of an if-else statement in Java is as follows:
+
+	if (condition) {
+    		// Code to execute if the condition is true
+	} else {
+    		// Code to execute if the condition is false
+	}
+
+Q7. In Java, there are several types of iterative loops, but the three most commonly used ones are:
+
+	for Loop:
+	for (initialization; condition; update) {
+ 	   // Code to be repeated
+	}
+	Use: The for loop is typically used when you know in advance how many times you want to execute a block of code. It consists of three parts: initialization (executed once at the 	beginning), condition (evaluated before each iteration), and update (executed after each iteration). The loop continues as long as the condition is true.
+	Example:
+	for (int i = 0; i < 5; i++) {
+  	  System.out.println("Iteration " + i);
+	}
+	while Loop:
+	while (condition) {
+	    // Code to be repeated
+	}
+	Use: The while loop is used when you want to execute a block of code repeatedly as long as a certain condition is true. It evaluates the condition before entering the loop, and if 	the condition is false from the beginning, the loop may not execute at all.
+	Example:
+	int count = 0;
+	while (count < 3) {
+	    System.out.println("Count: " + count);
+	    count++;
+	}
+	do-while Loop:
+	do {
+	    // Code to be repeated
+	} while (condition);
+	Use: The do-while loop is similar to the while loop, but it guarantees that the block of code will execute at least once, even if the condition is false from the beginning. It 	evaluates the condition after each iteration.
+	Example:
+	int num = 5;
+	do {
+ 	   System.out.println("Num: " + num);
+	    num--;
+	} while (num > 0);
+	These three types of loops provide you with different ways to control the flow of your program and perform repetitive tasks based on specific conditions or iteration counts. 	Depending on your requirements, you can choose the loop that best suits your needs.
+
+Q8. The primary difference between a for loop and a do-while loop in Java is when the loop condition is checked in relation to the execution of the loop's block of code. Here's a breakdown 	of the key differences:
+
+	1. Condition Checking:
+
+	For Loop: In a for loop, the loop condition is checked before entering the loop. If the condition is initially false, the loop block is not executed at all.
+	for (initialization; condition; update) {
+	    // Code to be repeated
+	}
+	Do-While Loop: In a do-while loop, the loop block is executed at least once before the condition is checked. Even if the condition is false from the beginning, the loop block is 	executed once.
+	do {
+	    // Code to be repeated
+	} while (condition);
+
+Q9. public class PrintNum{
+	public static void main(String args[]) {
+		for(int i = 1; i<=10; i++){
+			System.out.println(i);
+			}
+		}
+	}
